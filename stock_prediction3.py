@@ -36,9 +36,9 @@ epoch_num = 1000
 learning_rate = 0.01
  
  
-stock_file_name = 'data/hynix_0806.csv'
+stock_file_name = 'data/hynix2.csv'
 encoding = 'euc-kr'
-names = ['Date','Open','High','Low','Close','Adj Close','Volume']
+names = ['Date','Now','Open','High','Low','Volume','Rate']
 raw_dataframe = pd.read_csv(stock_file_name, names=names, encoding=encoding)
 raw_dataframe.info()
  
